@@ -443,3 +443,7 @@ Once connected, check the region details as below which should show the relevant
   "readme": "https://ipinfo.io/missingauth"
 }
 ```
+
+## Destroy infrastructure
+Remember to remove the created resources after the work is done.
+The infrastructure can be destroyed after the purpose using `terraform destroy -auto-approve`
